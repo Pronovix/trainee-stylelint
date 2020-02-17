@@ -6,7 +6,7 @@ RUN mkdir -p "${APP_ROOT}/target"
 
 WORKDIR /app
 
-COPY docker_entrypoint.sh .stylelintrc .prettierrc.json package.json ./
+COPY docker_entrypoint.sh .stylelintignore .stylelintrc .prettierrc.json package.json ./
 
 RUN yarn install
 
