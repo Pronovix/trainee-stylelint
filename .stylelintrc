@@ -2,7 +2,10 @@
   "plugins": [
     "stylelint-prettier"
   ],
+  "extends": "stylelint-config-standard",
   "rules": {
-    "prettier/prettier": true
+    "prettier/prettier": true,
+    "color-hex-length": "long",
+    "color-named": "never"
   }
 }
