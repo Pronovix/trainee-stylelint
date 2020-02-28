@@ -6,6 +6,7 @@
   "rules": {
     "prettier/prettier": true,
     "color-hex-length": "long",
-    "color-named": "never"
+    "color-named": "never",
+    "length-zero-no-unit": true
   }
 }
